@@ -8,7 +8,7 @@
 PRODUCT_NAME = vibewithme
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.vibewithmee
+PRODUCT_BUNDLE_IDENTIFIER = com.example.vibewithme
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2021 com.example. All rights reserved.

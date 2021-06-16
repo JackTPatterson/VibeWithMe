@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.vibewithmee">
+    package="com.example.vibewithme">
    <application
         android:label="vibewithme"
         android:icon="@mipmap/ic_launcher">
