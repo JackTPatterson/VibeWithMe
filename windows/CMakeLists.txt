@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
-project(deathchate LANGUAGES CXX)
+project(vibewithme LANGUAGES CXX)
 
-set(BINARY_NAME "deathchate")
+set(BINARY_NAME "vibewithme")
 
 cmake_policy(SET CMP0063 NEW)
 

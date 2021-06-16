@@ -1,4 +1,4 @@
-# deathchat
+# vibewithme
 
 A new Flutter project.
 
