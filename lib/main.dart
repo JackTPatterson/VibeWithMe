@@ -4,7 +4,24 @@ import 'package:battery/battery.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:flutter_icons/flutter_icons.dart';
+import 'package:fluttericon/brandico_icons.dart';
+import 'package:fluttericon/elusive_icons.dart';
+import 'package:fluttericon/entypo_icons.dart';
+import 'package:fluttericon/font_awesome5_icons.dart';
+import 'package:fluttericon/font_awesome_icons.dart';
+import 'package:fluttericon/fontelico_icons.dart';
+import 'package:fluttericon/iconic_icons.dart';
+import 'package:fluttericon/linearicons_free_icons.dart';
+import 'package:fluttericon/linecons_icons.dart';
+import 'package:fluttericon/maki_icons.dart';
+import 'package:fluttericon/meteocons_icons.dart';
+import 'package:fluttericon/mfg_labs_icons.dart';
+import 'package:fluttericon/modern_pictograms_icons.dart';
+import 'package:fluttericon/octicons_icons.dart';
+import 'package:fluttericon/rpg_awesome_icons.dart';
+import 'package:fluttericon/typicons_icons.dart';
+import 'package:fluttericon/web_symbols_icons.dart';
+import 'package:fluttericon/zocial_icons.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -96,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Icon(
-                  Ionicons.ios_battery_full,
+                  Iconic.bat_empty,
                   size: 100,
                 ),
                 SizedBox(
@@ -119,9 +136,8 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       );
     }
-
     //swap to less than or equal to
-    if (battLevel >= 0) {
+    if (battLevel >= 95) {
       return Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
@@ -167,7 +183,9 @@ class _MyHomePageState extends State<MyHomePage> {
                                         )))),
                             GestureDetector(
                               onTap: () async => addUser(),
-                              child: Icon(Feather.send),
+                              child: Icon(
+                                  Typicons.plane
+                              ),
                             )
                           ],
                         ),
@@ -190,7 +208,7 @@ class _MyHomePageState extends State<MyHomePage> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Icon(
-          Ionicons.ios_battery_dead,
+          Iconic.bat_charge,
           size: 100,
         ),
         SizedBox(
